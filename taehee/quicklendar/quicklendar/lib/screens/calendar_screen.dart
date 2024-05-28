@@ -28,7 +28,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
 
   @override
   void dispose() {
-    _eventController.dispose();
+    _eventController.dispose();  //주석처리
     _selectedEvents.dispose();
     super.dispose();
   }
